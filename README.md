@@ -11,5 +11,11 @@ Como primera instancia, creamos una carpeta en nuestro equipo, en ella guardarem
 git clone https://github.com/marielamejia/CarrerasITAM.git
 para clonar el repositorio en nuestro equipo. 
 Creamos las carpetas de imágenes "imagenesCarreras" e "imagenesPagina" donde guardamos las imágenes de las carreras que ofrece el ITAM y las imágenes del resto de la página, respectivamente. 
-
+Posteriormente, creamos las diferentes branches a utilizar durante la elaboración de la página web, en este caso fueron:
+- branchReadMe
+- bannerITAM
+- planesEstudioCards
+- branchProgramasConjuntosITAM
+- branchFooter
+Como observamos en la siguiente imagen, en la parte superior de nuestro editor de código de Visual Studio Code, podemos agregar las branches necesarias. La división de estas se hizo considerando las diferentes secciones que se trabajan de la página web. 
 <img src="./branches.png" width="600" alt="Diagrama de ramas">
