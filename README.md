@@ -19,3 +19,4 @@ Posteriormente, creamos las diferentes branches a utilizar durante la elaboraci�
 - branchFooter
 Como observamos en la siguiente imagen, en la parte superior de nuestro editor de código de Visual Studio Code, podemos agregar las branches necesarias. La división de estas se hizo considerando las diferentes secciones que se trabajan de la página web. 
 <img src="./branches.png" width="600" alt="Diagrama de ramas">
+
