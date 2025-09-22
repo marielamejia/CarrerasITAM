@@ -1,0 +1,15 @@
+.margen-cards{
+  background-color: #daede5;
+  padding: 2.5rem 1cm 2rem;   /* arriba con 2.5rem, a los lados con 1cm, y abajo con 2rem */
+}
+
+/* Evita que.row borre nuestro padding lateral */
+.margen-cards .row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* Espacio entre filas consecutivas */
+.row + .row{
+  margin-top: 1.25rem;
+}
