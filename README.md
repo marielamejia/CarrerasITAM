@@ -11,4 +11,5 @@ Como primera instancia, creamos una carpeta en nuestro equipo, en ella guardarem
 git clone https://github.com/marielamejia/CarrerasITAM.git
 para clonar el repositorio en nuestro equipo. 
 Creamos las carpetas de imágenes "imagenesCarreras" e "imagenesPagina" donde guardamos las imágenes de las carreras que ofrece el ITAM y las imágenes del resto de la página, respectivamente. 
-<img href="imagenesPagina/branches.png">
+
+<img src="./branches.png" width="600" alt="Diagrama de ramas">
