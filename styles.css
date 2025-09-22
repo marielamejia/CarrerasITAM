@@ -75,3 +75,22 @@
 
 
 /*Estilos para el footer*/
+.footer-itam{
+  background:#004438; 
+  color:#fff;
+}
+.footer-itam a{ /*enlaces de footer de color blanco */
+  color:#fff; 
+  opacity:.95; 
+}
+.footer-itam a:hover{ 
+  opacity:1; 
+  text-decoration:underline; 
+}
+.footer-itam .footer-title{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  border-bottom: 2px solid rgba(255,255,255,.6);
+  padding-bottom: .4rem;
+  margin-bottom: 1rem;
+}
