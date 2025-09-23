@@ -38,17 +38,32 @@ Damos clic en el botón verde y checamos que no hayan conflictos para hacer nues
 ### Descripción de cada sección
 
 #### Nav Bar
+FALTAAAAAA
 
 #### Banner ITAM
 Para esta primera sección, descargamos la imagen de la página de Carreras ITAM, la cual ya traía el filtro verde que se muestra en la página. Se generó una nueva section dentro de nuestro main en la cual agregamos la imagen del banner. Sobre esta, se agrego texto e iconos de las redes sociales del ITAM. Para ello, se utilizó bootstrap para obtener los iconos y los estilos necesarios se declararon en nuestra clase style.css. Algunos estilos que se tuvieron que crear fueron: el del banner para que la imagen abarcara la pantalla completa, que fuera responsivo y, que el texto añadido estuviera por encima de la imagen. 
 
-El link utilizado para usar los iconos de bootstrap es: 
+El link utilizado para usar los iconos de bootstrap es: "https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+
 
 #### Cards sobre planes de estudio
+Para esta sección, utilizamos los cards vistos en clase durante nuestra introducción a Bootstrap. A partir de este diseño, se hizo una sección con 4 renglones (rows) diferentes, así se manejaron 4 cards por renglón. Esta sección se maneja de manera sencilla, se crea un row y dentro de ese agregamos 4 cards. Este proceso se repitió hasta obtener las 4 rows que queremos con sus respectivas imágenes de cada carrera que ofrece el ITAM. 
+Para poner los planes de estudio en cada card se siguieron los siguientes pasos: 
+
+FALTAAAAAAA
 
 #### Programas conjuntos y dobles grados
 
 #### Footer
+Para el footer, se sigue un proceso similar al de la sección de cards. Sin embargo, en este caso dividimos la sección en 4 columnas diferentes. Una vez teniendo las columnas, solo se agrega la información que tiene la página:
+- En la primera columna tenemos el logo ITAM y los iconos de sus redes sociales
+- En la segunda tenemos el menú, donde cada texto nos lleva a la página del ITAM correspondiente, como inicio, intercambio, etc.
+- En la tercera tenemos la dirección del ITAM
+- En la cuarta la informaciónn de contacto para más información
+
+Una vez teniendo dicha información, nos centramos en la parte responsiva pues al hacer la página más pequeña, las columnas aparecen de una en una. Para ello, 
+
+FALTAAAAAAAA
 
 ### Despliegue en Github pages
 https://marielamejia.github.io/CarrerasITAM
