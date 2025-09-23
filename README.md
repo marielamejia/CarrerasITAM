@@ -33,6 +33,8 @@ Después, se da clic en el botón de commit y después en sync changes. Una vez 
 
 Damos clic en el botón verde y checamos que no hayan conflictos para hacer nuestro merge con el main. Cabe destacar que este proceso se repite para cada branch que se utiliza y que se debe cambiar de branch al trabajar en una sección distinta. NOTA: Es importante hacer los commmits y pull request necesarios antes de cambiar de branch, con el fin de evitar conflictos en nuestro merge.  
 
+<img src="imagenesPagina/merge.png">
+
 #### Nav Bar
 
 #### Banner ITAM
