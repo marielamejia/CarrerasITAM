@@ -72,6 +72,27 @@
 .heading-green { 
   color: #77b944; 
 }   
+/*estos styles son para la parte responsive de planes conjuntos*/
+@media (max-width: 991.98px){
+  .side-1cm{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .programas .justify-content-center{
+    justify-content: flex-start !important;
+  }
+  .programas .img-fluid.rounded.shadow{
+    width: 100%;
+    max-width: 560px;  
+  }
+  .programas .display-6{
+    font-size: calc(1.7rem + .6vw);
+  }
+  .programas .fs-5{
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+}
 
 
 /*Estilos para el footer*/
