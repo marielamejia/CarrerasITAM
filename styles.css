@@ -43,6 +43,8 @@
 }
 
 
+
+
 /* Estilos para el contenedor de las cards */
 .margen-cards{
   background-color: #daede5;
@@ -86,6 +88,41 @@
 .card-title a:hover{
   color:#77b944;
 }
+/* Estilo movimiento cards de las carreras */
+.margen-cards .card{
+  overflow: hidden;                    
+  transition: transform .35s ease, box-shadow .35s ease;
+  will-change: transform;
+}
+.margen-cards .card:hover{
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.12);
+}
+.margen-cards .card .card-img-top{
+  transition: transform .5s ease;
+  will-change: transform;
+}
+.margen-cards .card:hover .card-img-top{
+  transform: scale(1.05);
+}
+.card-reveal{
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.card-reveal.in-view{
+  opacity: 1;
+  transform: none;
+}
+@media (prefers-reduced-motion: reduce){
+  .margen-cards .card,
+  .margen-cards .card .card-img-top,
+  .card-reveal{
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
 
 
 
