@@ -19,11 +19,11 @@ Posteriormente, creamos las diferentes branches a utilizar durante la elaboraci�
 - branchFooter
 
 Como observamos en la siguiente imagen, en la parte superior de nuestro editor de código Visual Studio Code, podemos agregar las branches necesarias. La división de estas se hizo considerando las diferentes secciones que se trabajan de la página web. 
-<img src="imagenesPagina/branches.png" width="600" alt="Imagen de ramas">
+<img src="imagenesPagina/branches.png" width="300" alt="Imagen de ramas">
 
 Se cambió de branch cada vez que se trabajó en una sección diferente. Por ejemplo, primero se trabajo en la parte del banner ITAM por lo que usamos esa branch e hicimos todas las modificaciones necesarias. Dichas modificaciones incluyen el uso de texto e iconos sobre la imagen, para lo cual nos apoyamos de bootstrap (para los iconos) y nuestro archivo styles.css
 Una vez terminando las ediciones necesarias, desde VSCode se hizo el commit hacia nuestro repositorio de Github (nótese que el archivo dice ReadMe pero esto varia pues en ese apartado nos aparecen los archivos editados).
-<img src="imagenesPagina/commit.png" width="600" alt="Imagen de commit">
+<img src="imagenesPagina/commit.png" width="300" alt="Imagen de commit">
 
 Después, se da clic en el botón de commit y después en sync changes. Una vez dado clic en este, nos vamos a Github donde nos aparece un pull request, así como el siguiente:
 
