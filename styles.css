@@ -48,14 +48,49 @@
   background-color: #daede5;
   padding: 2.5rem 1cm 2rem;   /* arriba con 2.5rem, a los lados con 1cm, y abajo con 2rem */
 }
-
-/* Evita que.row borre nuestro padding lateral */
-.margen-cards .row{
+.margen-cards .row{ /* Evita que.row borre nuestro padding lateral */
   margin-left: 0;
   margin-right: 0;
 }
-
-/* Espacio entre filas */
-.row + .row{
+.row + .row{ /* Espacio entre filas */
   margin-top: 1.25rem;
+}
+
+
+/* Estilos para la seccion de programas conjuntos */
+.side-1cm { 
+  padding-left: 6cm; 
+  padding-right: 5cm; 
+}
+.programas {
+  background: #fff;
+  border-top: 2px solid #cfe8dc;    
+  border-bottom: 1px solid #e9f2ee; 
+  padding-top: 3rem;                 
+  padding-bottom: 3rem;
+}
+.heading-green { 
+  color: #77b944; 
+}   
+
+
+/*Estilos para el footer*/
+.footer-itam{
+  background:#004438; 
+  color:#fff;
+}
+.footer-itam a{ /*enlaces de footer de color blanco */
+  color:#fff; 
+  opacity:.95; 
+}
+.footer-itam a:hover{ 
+  opacity:1; 
+  text-decoration:underline; 
+}
+.footer-itam .footer-title{
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  border-bottom: 2px solid rgba(255,255,255,.6);
+  padding-bottom: .4rem;
+  margin-bottom: 1rem;
 }
