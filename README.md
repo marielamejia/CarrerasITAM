@@ -29,17 +29,18 @@ Una vez terminando las ediciones necesarias, desde VSCode se hizo el commit haci
 
 Después, se da clic en el botón de commit y después en sync changes. Una vez dado clic en este, nos vamos a Github donde nos aparece un pull request, así como el siguiente:
 
-<img src="imagenesPagina/createPullRequest.png" width="300" alt="Imagen de creación de pull request">
+<img src="imagenesPagina/createPullRequest.png" alt="Imagen de creación de pull request">
 
 Damos clic en el botón verde y checamos que no hayan conflictos para hacer nuestro merge con el main. Cabe destacar que este proceso se repite para cada branch que se utiliza y que se debe cambiar de branch al trabajar en una sección distinta. NOTA: Es importante hacer los commmits y pull request necesarios antes de cambiar de branch, con el fin de evitar conflictos en nuestro merge.  
 
-<img src="imagenesPagina/merge.png" width="300" alt="Imagen de merge en github">
+<img src="imagenesPagina/merge.png" alt="Imagen de merge en github">
 
 ### Descripción de cada sección
 
 #### Nav Bar
 
 #### Banner ITAM
+Para esta primera sección, descargamos la imagen de la página de Carreras ITAM, la cual ya traía el filtro verde que se muestra en la página. Se generó una nueva section dentro de nuestro main en la cual agregamos la imagen del banner. Sobre esta, se agrego texto e iconos de las redes sociales del ITAM. Para ello, se utilizó bootstrap para obtener los iconos y los estilos necesarios se declararon en nuestra clase style.css. Algunos estilos que se tuvieron que crear fueron: el del banner para que la imagen abarcara la pantalla completa, que fuera responsivo y, que el texto añadido estuviera por encima de la imagen. 
 
 #### Cards sobre planes de estudio
 
