@@ -71,11 +71,20 @@
   text-decoration:none;
 }
 .plan-link:hover{
-  color:#495057;            
+  color:#77b944;            
   text-decoration:none;
 }
 .plan-link .bi{                        
   font-size:1.25rem;
+}
+/* Estilo título carrera (con link y hover) */
+.card-title a{
+  color:#000;
+  text-decoration:none;
+  transition: color .15s;
+}
+.card-title a:hover{
+  color:#77b944;
 }
 
 
@@ -117,6 +126,9 @@
     line-height: 1.7;
   }
 }
+
+
+
 
 
 /*Estilos para el footer*/
