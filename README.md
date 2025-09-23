@@ -42,6 +42,8 @@ Damos clic en el botón verde y checamos que no hayan conflictos para hacer nues
 #### Banner ITAM
 Para esta primera sección, descargamos la imagen de la página de Carreras ITAM, la cual ya traía el filtro verde que se muestra en la página. Se generó una nueva section dentro de nuestro main en la cual agregamos la imagen del banner. Sobre esta, se agrego texto e iconos de las redes sociales del ITAM. Para ello, se utilizó bootstrap para obtener los iconos y los estilos necesarios se declararon en nuestra clase style.css. Algunos estilos que se tuvieron que crear fueron: el del banner para que la imagen abarcara la pantalla completa, que fuera responsivo y, que el texto añadido estuviera por encima de la imagen. 
 
+El link utilizado para usar los iconos de bootstrap es: 
+
 #### Cards sobre planes de estudio
 
 #### Programas conjuntos y dobles grados
