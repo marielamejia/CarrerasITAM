@@ -29,11 +29,13 @@ Una vez terminando las ediciones necesarias, desde VSCode se hizo el commit haci
 
 Después, se da clic en el botón de commit y después en sync changes. Una vez dado clic en este, nos vamos a Github donde nos aparece un pull request, así como el siguiente:
 
-<img src="imagenesPagina/createPullRequest.png">
+<img src="imagenesPagina/createPullRequest.png" width="300" alt="Imagen de creación de pull request">
 
 Damos clic en el botón verde y checamos que no hayan conflictos para hacer nuestro merge con el main. Cabe destacar que este proceso se repite para cada branch que se utiliza y que se debe cambiar de branch al trabajar en una sección distinta. NOTA: Es importante hacer los commmits y pull request necesarios antes de cambiar de branch, con el fin de evitar conflictos en nuestro merge.  
 
-<img src="imagenesPagina/merge.png">
+<img src="imagenesPagina/merge.png" width="300" alt="Imagen de merge en github">
+
+### Descripción de cada sección
 
 #### Nav Bar
 
