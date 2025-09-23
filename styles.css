@@ -55,6 +55,30 @@
 .row + .row{ /* Espacio entre filas */
   margin-top: 1.25rem;
 }
+.margen-cards .card{ 
+  width:80%; 
+}
+@media (max-width: 991.98px){
+  .margen-cards .card{
+    width: 100% !important;   
+    max-width: 460px;          
+    margin-inline: auto;       
+  }
+}
+/* Botón de plan de estudios */
+.plan-link{
+  color:#6c757d;            
+  text-decoration:none;
+}
+.plan-link:hover{
+  color:#495057;            
+  text-decoration:none;
+}
+.plan-link .bi{                        
+  font-size:1.25rem;
+}
+
+
 
 
 /* Estilos para la seccion de programas conjuntos */
@@ -72,6 +96,27 @@
 .heading-green { 
   color: #77b944; 
 }   
+/*estos styles son para la parte responsive de planes conjuntos*/
+@media (max-width: 991.98px){
+  .side-1cm{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .programas .justify-content-center{
+    justify-content: flex-start !important;
+  }
+  .programas .img-fluid.rounded.shadow{
+    width: 100%;
+    max-width: 560px;  
+  }
+  .programas .display-6{
+    font-size: calc(1.7rem + .6vw);
+  }
+  .programas .fs-5{
+    font-size: 1.125rem;
+    line-height: 1.7;
+  }
+}
 
 
 /*Estilos para el footer*/
@@ -94,3 +139,5 @@
   padding-bottom: .4rem;
   margin-bottom: 1rem;
 }
+
+
