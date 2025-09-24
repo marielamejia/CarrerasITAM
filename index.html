@@ -12,41 +12,48 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg bg-info-subtle">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+      <!------------------------------------------------>
+      <!--------------- INICIA NAV BAR ----------------->
+      <!------------------------------------------------> 
+      <nav class="navbar navbar-expand-lg fixed-top navbar-itam">
+        <div class="container-fluid d-flex justify-content-between">
+            <a class="navbar-brand" href="https://www.itam.mx" target="_blank">
+                <img src="imagenesPagina/logoITAMBlanco.svg" alt="Logo ITAM" style="width:170px" class="mb-3">
+            </a>
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                    </li>
-                    <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-                </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" href="https://carreras.itam.mx">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#">Nuestras carreras</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Admisiones
+                                </a>
+                                <ul class="dropdown-menu fondoDD">
+                                    <li><a class="dropdown-item" href="https://carreras.itam.mx/admisiones">Admisiones</a></li>
+                                    <li><a class="dropdown-item" href="https://carreras.itam.mx/becas-y-ayuda-financiera">Becas y ayuda financiera</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://carreras.itam.mx/vida-universitaria">Vida universitaria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://carreras.itam.mx/intercambio-academico">Intercambio académico</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="https://carreras.itam.mx/estudiantes-foraneos">Estudiantes foráneos</a>
+                            </li>
+                        </ul>
+                    </div>
             </div>
+        </div>
         </nav>
     </header>
 
@@ -386,26 +393,12 @@
                     oportunidades profesionales.
                 </p>
             </div>
-        </div>
-
-        <!--<section class="py-4">
-            <div class="container">
-                <div class="d-flex justify-content-center">
-                    <div class="ratio ratio-16x9" style="width: min(90vw, 1100px);">
-                        <iframe
-                        src="https://www.youtube.com/embed/4vxHE4T63RQ"
-                        title="Video de YouTube programas conjuntos"
-                        allowfullscreen
-                        ></iframe>
-                    </div>
-                </div>
-            </div>
-        </section> --> 
+        </div> 
 
         <section class="py-4">
             <div class="container">
                 <div class="d-flex justify-content-center">
-                    <a class="position-relative d-inline-block" data-bs-toggle="collapse" href="https://www.youtube.com/embed/4vxHE4T63RQ" aria-expanded="false" aria-controls="videoProgramas">
+                    <a class="position-relative d-inline-block" data-bs-toggle="collapse" href="https://www.youtube.com/embed/4vxHE4T63RQ" target="_blank" aria-expanded="false" aria-controls="videoProgramas">
                         <img src="imagenesPagina/programaConjunto.png" class="img-fluid rounded shadow" alt="Ver video de programas conjuntos ITAM">
                         <i class="bi bi-play-circle-fill position-absolute top-50 start-50 translate-middle" style="font-size:3rem; color:#fff; text-shadow:0 2px 12px rgba(0,0,0,.5)"></i>
                     </a>
