@@ -59,6 +59,36 @@ header{
 .fondoDD{
   background-color: #daede5;
 }
+/*agregamos este media para que el banner se ajuste a las medidas del dispositivo (ipad y samsung galaxy) */
+@media (max-width:1024px){
+  .banner-ITAM img{
+    height: 70vh;                 
+    object-position: center;
+  }
+  .banner-ITAM .banner-content{
+    flex-direction: column !important;      
+    justify-content: flex-end !important;   
+    align-items: flex-start !important;    
+    left: 1rem; 
+    right: 1rem; 
+    bottom: 1.25rem;
+    gap: .75rem;
+  }
+  .banner-ITAM .text-end{
+    text-align: left !important;
+    width: 100%;
+  }
+  .banner-title{
+    font-size: clamp(1.9rem, 8vw, 3rem);
+  }
+  .banner-contact .item{ 
+    font-size: 1rem; 
+  }
+  .banner-social a{ 
+    font-size: 1.35rem; margin-right: .75rem; 
+  }
+}
+
 
 
 
