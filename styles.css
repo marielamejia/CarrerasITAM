@@ -75,7 +75,7 @@ header{
   margin-top: 1.25rem;
 }
 .margen-cards .card{ 
-  width:80%; 
+  width:100%; 
 }
 @media (max-width: 991.98px){
   .margen-cards .card{
