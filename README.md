@@ -67,15 +67,17 @@ Para lograr el movimiento de las cards se usaron los estilos de .margen-cards qu
 Link usado de Bootstrap: https://getbootstrap.com/docs/5.3/components/modal/ 
 
 ### Programas conjuntos y dobles grados
-En esta sección se trabajaron con dos textos divididos dos columnas en un mismo renglón. Este se tuvo que ajustar para que se viera bien en todos los dispositivos, para ello, se usó 
+En esta sección se trabajaron con dos textos divididos dos columnas en un mismo renglón. Este se tuvo que ajustar para que se viera bien en todos los dispositivos, para ello, se usó:
 
-&lt;div class="row align-items-start gy-4 gx-1 my-2"&gt;
-    &lt;div class="col-12 col-lg-5"&gt;
-        &lt;h3 class="display-6 fw-bold heading-green lh-1 mb-0"&gt;
-            Programas &lt;br class="d-none d-md-block"&gt; conjuntos
-        &lt;/h3&gt;
-    &lt;/div&gt;
-...
+<div class="row align-items-start gy-4 gx-1 my-2">
+            <div class="col-12 col-lg-5">
+                <h3 class="display-6 fw-bold heading-green lh-1 mb-0">
+                    Programas <br class="d-none d-md-block"> conjuntos
+                </h3>
+            </div>
+.
+.
+.
 
 Después de esto, se trabajó con los videos de YouTube. Personalmente, esta fue una de las parte que más me costó hacer. Para ello, se usó un container y dentro de el se definió la imagen que se quería usar como botón y al darle clic se le agrega la funcionalidad del iframe con el URL del video para que este se reproduzca. Para esta sección, se repitió este mismo proceso 2 veces pues tenemos dos apartados de texto y dos de video.
 
