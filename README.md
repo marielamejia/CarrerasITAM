@@ -8,9 +8,11 @@ Para esta página, se trabajó con las mismas imágenes que aparecen en la pági
 A su vez, los links de la réplica funcionan de igual manera que la página de Carreras, es decir, nos llevan a otras ligas donde podemos ver los videos de YouTube y los planes de estudio de cada carrera que ofrece el ITAM. 
 ### Proceso que se siguió
 Como primera instancia, creamos una carpeta en nuestro equipo, en ella guardaremos todo el proyecto. Después, utilizamos el comando 
+
 git clone https://github.com/marielamejia/CarrerasITAM.git
+
 para clonar el repositorio en nuestro equipo. 
-Creamos las carpetas de imágenes "imagenesCarreras" e "imagenesPagina" donde guardamos las imágenes de las carreras que ofrece el ITAM y las imágenes del resto de la página, respectivamente. 
+Creamos las carpetas de imágenes "imagenesCarreras", "planes de estudio" e "imagenesPagina" donde guardamos las imágenes de las carreras que ofrece el ITAM y las imágenes del resto de la página, respectivamente. 
 Posteriormente, creamos las diferentes branches a utilizar durante la elaboración de la página web, en este caso fueron:
 - branchReadMe
 - bannerITAM
@@ -61,11 +63,22 @@ Para el footer, se sigue un proceso similar al de la sección de cards. Sin emba
 - En la tercera tenemos la dirección del ITAM
 - En la cuarta la informaciónn de contacto para más información
 
-Una vez teniendo dicha información, nos centramos en la parte responsiva pues al hacer la página más pequeña, las columnas aparecen de una en una. Para ello, 
+Una vez teniendo dicha información, nos centramos en la parte responsiva pues al hacer la página más pequeña, las columnas aparecen de una en una. Para ello, se hizo de las propiedades de col. Por otro lado, observamos que el apartado de "Aviso de privacidad" aparece como pare de la primera columna en la pantalla completa (en la de la computadora). Sim embargo, al hacer la pantalla más pequeña como en los casos de los iPads o de los teléfonos, el "Aviso de privacidad" sale hasta abajo, después de todas las columnas. 
+Para lograr esto, se hicieron dos &lt;p&gt;, el primero solo aparece visible en la página al ser pantalla completa y se oculta al hacerla más pequeña mientras que nuestro segundo &lt;p&gt; trabaja de manera inversa.
 
-FALTAAAAAAAA
 
 ## Despliegue en Github pages
+Para el despliegue en Github pages, se siguieron los siguientes pasos:
+- Asegurarnos de que nuestros archivos se encuentren en la carpeta raíz del proyecto, esto incluye los documentos index.html, styles.css y nuestras 3 carpetas de imágenes.
+- Para el correcto despliegue nos debemos asegurar que las rutas utilizadas en el código fueron rutas relativas, por ejemplo: ./imagenesPagina/banner.webp
+- Como tercer punto, subimos nuestro proyecto a github, utilizando los comandos antes explicadoa, commits, pull y push, según sea el caso
+- Una vez teniendo el código en nuestro repositorio de Github, entramos a "settings" --> "pages" 
+- Damos clic en "build and deployment" y vemos lo siguiente --> Source: “Deploy from a branch", Branch: main, Folder: / (root), debe quedar como en la siguiente imagen:
+
+<img src="imagenesPagina/ejemploGithubPages.png" alt="Imagen cómo hacer despliegue de github pages">
+
+A continuación, se presenta el link obtenido del despliegue de la página: 
+
 https://marielamejia.github.io/CarrerasITAM
 
 ## Links de pull request
